@@ -1,0 +1,17 @@
+     #include <iostream>
+#include <math.h>
+using namespace std;
+int main() {
+
+	tryAgain:
+	int N;
+	cout << "Type number N: ";
+	cin >> N;
+	if (N < 0) {
+		goto tryAgain;
+	}
+	
+	cout << "The sqrt of  " << N << " "<< "is " << sqrt(N) << endl;
+
+}
+    
